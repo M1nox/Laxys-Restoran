@@ -1,0 +1,79 @@
+body{
+  overflow-x:hidden; 
+}
+.container-fluid img{
+    width: 15%;
+}
+.change-color {
+    background-color: #212529;
+}
+
+.change-color:hover {
+    background-color: #2b3035;
+}
+.link-offset-2 img:hover{
+    transform: scale(1.1);
+}
+.link-offset-2 img{
+    transition: transform 0.3s;
+}
+.dark-modal .modal-content {
+    background-color: #333; /* Колір фону модального вікна */
+    color: #fff; /* Колір тексту в модальному вікні */
+  }
+  
+  .dark-modal .modal-header {
+    border-bottom: 1px solid #414141; /* Колір лінії роздільника заголовка */
+    
+  }
+  
+  .dark-modal .modal-footer {
+    border-top: 1px solid #414141; /* Колір лінії роздільника підвалу */
+  }
+  
+  .dark-modal .close {
+    color: #414141; /* Колір кнопки закриття модального вікна */
+  }
+.card img {
+    transition: transform 0.3s ease;
+  }
+  
+  .card img:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+  .card{
+    overflow: hidden;
+  }
+.accordion{
+  background-color: #333; /* Колір фону акордеону */
+  color: #fff;
+  border:0px;
+}
+.accordion-item{
+    background-color: #555;
+    border:0px; 
+    color:white;
+}
+.accordion-button{
+  background-color: #525252;
+  color:white
+}
+.collapsed{
+  background-color: #333;
+  color:white
+}
+.accordion-button:not(.collapsed) {
+  color:white;
+  background-color: #333;
+  border:0;
+}
+.align-items-centere {
+  min-height: 100vh;
+}
+
+.text-centere {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

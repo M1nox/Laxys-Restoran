@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Laxys | Menu</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/logo-small.png">
+    </head>
+    <body class="bg-dark text-white">
+            <nav class="navbar navbar-expand-lg bg-body-dark navbar-dark container position-absolute mt-5 start-50 translate-middle fixed-top">
+                <div class="container-fluid">
+                    <img src="img/header-logo-big.png">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Про нас</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-dark">
+                          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Меню
+                          </a>
+                          <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item text-white change-color" href="menu-salats.html#menu">Салати</a></li>
+                            <li><a class="dropdown-item text-white change-color" href="menu-salats.html#menu">Гарячі страви</a></li>
+                            <li><a class="dropdown-item text-white change-color" href="menu-salats.html#menu">Гарніри</a></li>
+                            <li><a class="dropdown-item text-white change-color" href="menu-salats.html#menu">Піци</a></li>
+                            <li><a class="dropdown-item text-white change-color" href="menu-salats.html#menu">Напої</a></li>   
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Новини</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cont.html">Контакти</a>
+                        </li>
+                    </ul>
+                        <button class="btn btn-outline-light d-flex" type="submit" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Забронювати</button>
+                        <!--<button type="button" class="btn btn-outline-light position-relative ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark border" id="spantext">
+                            0
+                          </span>-->
+                        </button>
+                    </div>
+                </div>
+                </nav>
+                <div class="container-fluid px-0 pb-5">
+                  <img src="img/menu-start-1.png" class="w-100">
+              </div>  
+          <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="btn-group d-flex justify-content-center mx-5 px-5 mb-5" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Салати</button>
+                    <button type="button" class="btn btn-outline-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">Гарячі страви</button>
+                    <button type="button" class="btn btn-outline-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Гарніри</button>
+                    <button type="button" class="btn btn-outline-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">Піци</button>
+                    <button type="button" class="btn btn-outline-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5">Напої</button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row" id="menu">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/salat-1.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Салат "Нічого зайвого"</h5>
+                              <p class="card-text">Гарний, соковитий та ароматний грецький салат, мабуть, найпопулярніший із усіх овочевих салатів. А люблять його за ідеальне поєднання інгредієнтів, насичений смак та швидкість приготування.</p>
+                              <p class="text-white fst-italic card-text">329 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/salat-2.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Салат "Класичний"</h5>
+                              <p class="card-text">Якщо спитаєте себе, який салат є одним з найпопулярнішим у світі, то з великою ймовірністю на думку прийде саме салат Цезар. Його подають у безлічі ресторанів та кафе, та майже завжди його можна знайти навіть у супермаркетах та на стійках швидкого харчування аеропортів світу.</p>
+                              <p class="text-white fst-italic card-text">240 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/salat-3.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Салат "Вінегрет"</h5>
+                              <p class="card-text">Вінегрет – смачна страва, яка складається з доступних інгредієнтів. Існує багато версій походження цього салату, але історики сходяться на думці, що назва походить із французької мови та означає «винний оцет». В оригінальному рецепті вінегрету справді заправка робиться на основі винного оцту. Ми поділимося секретами приготування вінегрету.</p>
+                              <p class="text-white fst-italic card-text">160 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/salat-4.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Салат "Коул Слоу"</h5>
+                              <p class="card-text">Назва салату «Коул Слоу» може лякати, адже здається, що за нею приховані дивовижні інгредієнти, які не так просто знайти. Але насправді все набагато простіше. У його складі знайома нам білокачанна капуста та морква, заправлені соусом на основі сметани. Так просто, але повірте, виходить неймовірно смачний та соковитий салат.</p>
+                              <p class="text-white fst-italic card-text">285 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/salat-5.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Cалат з курячими стріпсами та грибами</h5>
+                              <p class="card-text">Вам потрібні неймовірно смачні та прості салати з куркою, які доречні і на свято, і у звичайний день? У мене є рецепт, який повністю відповідає вашому запиту. Тільки уявіть, як добре рум’яні засмажені курячі стріпси поєднуються з грибами, солоними огірками та іншими хрумкими інгредієнтами. Вигадувати складну заправку не будемо, бо цей салат з курячим філе такий чудовий, що достатньо просто полити його соком лимона та запашною олією. Він смакує як теплим, так і охолодженим. І мало існує на світі людей, які можуть залишитися до нього байдужими.</p>
+                              <p class="text-white fst-italic card-text">444 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/salat-6.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Салат з буряка</h5>
+                              <p class="card-text">Якщо на вашому столі є буженина, домашня ковбаса, холодець чи запечена курка, вони можуть існувати в тандемі з українською автентичною стравою цвіклі. Її традиційно готують з тертих буряків та хріну, а використовують як соус до м’яса чи салат – хто як любить. Страва виходить пікантною та соковитою, а готувати її дуже легко, тому не бачу проблем, щоб не потішити себе та рідних на свята та у звичайний день.</p>
+                              <p class="text-white fst-italic card-text">210 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/hot-1.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Лазанья</h5>
+                              <p class="card-text">Лазанья давно вже стала класикою обіднього столу не лише в Італії чи США, а й у багатьох країнах світу. Це шари пасти із ніжним соусом, м’ясом та сиром, які поєдналися, щоб утворити справжній вибух насиченого смаку. Приготування лазаньї потребує деяких зусиль та часу, але воно того варте, адже у результаті отримаєте неперевершений обід для великої родини чи компанії друзів.</p>
+                              <p class="text-white fst-italic card-text">530 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/hot-2.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Ліниві голубці</h5>
+                              <p class="card-text">Сьогодні час є категорією нової розкоші. Все менше годин чи хвилин хочеться проводити за приготуванням смачненького. А от таку улюблену для багатьох страву, як голубці, наші батьки колись робили у вихідний день і часом, процес затягувався чи не пів дня.</p>
+                              <p class="text-white fst-italic card-text">390 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/hot-3.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Картопля по-селянськи</h5>
+                              <p class="card-text">Картопля по-селянськи – страва популярна у всьому світі. Вона смачна, готувати її досить просто, і цей овоч завжди є в наявності вдома або в магазині.</p>
+                              <p class="text-white fst-italic card-text">230 грн</p>
+
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/hot-4.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Карбонара</h5>
+                              <p class="card-text"> О, Італія! Вона майже настільки ж прекрасна, як Україна. Вражає, закохує, надихає на дивовижні речі. От, скажімо, спагеті карбонара.</p>
+                              <p class="text-white fst-italic card-text">310 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/hot-5.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Європейські чебуреки</h5>
+                              <p class="card-text">Кожна країна має свою страву фаст-фуд, котра відіграє роль візитної картки цієї кухні. Нам пощастило мати кримсько-татарські чебуреки, котрі в Ukrainian Eurovision Village підкорили серця і шлунки гостей конкурсу.</p>
+                              <p class="text-white fst-italic card-text">190 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/hot-6.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Тефтелі</h5>
+                              <p class="card-text">Я не дуже часто користуюся мультиваркою, але розумію, що часом вона стає дуже помічною. Поклав інгредієнти всередину, поставив потрібний режим і забув про те все ще й на визначений самою мультиваркою час.</p>
+                              <p class="text-white fst-italic card-text">200 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/gar-1.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Рататуй</h5>
+                              <p class="card-text">Пам’ятаю, що коли я вперше подивився мультик «Рататуй» мені відразу ж закортіло приготувати такий самий рататуй, що готував маленький кухар-мишеня. </p>
+                              <p class="text-white fst-italic card-text">530 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/gar-2.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Баноша з грибами</h5>
+                              <p class="card-text">Банош чи бануш, як кажуть гуцули, – густа кукурудзяна каша, яку традиційно готують на заході Україні. Її варять на основі молока, вершків чи сметани, а подають зі свіжою бринзою, шкварками та зеленню. Гуцули кажуть, що банош треба перемішувати тільки дерев’яною ложкою та робити це за часовою стрілкою.</p>
+                              <p class="text-white fst-italic card-text">390 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/gar-3.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Галушки з сиром та гарбузом</h5>
+                              <p class="card-text">Ніжні м’якенькі галушки можна назвати стравою-мрією, адже їх завжди можна приготувати до свого смаку.</p>
+                              <p class="text-white fst-italic card-text">230 грн</p>
+
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/gar-4.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Польська лапша з маком і медом</h5>
+                              <p class="card-text">Заплющте очі та уявіть вечір напередодні Різдва. Ось стіл з красивою скатертиною, усміхнені обличчя близьких та неймовірно апетитні смаколики. </p>
+                              <p class="text-white fst-italic card-text">310 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/gar-5.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Брюссельска капуста в духовці з родзинками</h5>
+                              <p class="card-text">Що зроблять родзинки із брюссельською капустою? Вони просочать її приємною солодкістю. Додайте до цього тандему ще вершкове масло, трішки рожевого перцю  та лимонного соку, щоб капуста не втратила свій яскравий колір. </p>
+                              <p class="text-white fst-italic card-text">190 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/gar-6.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Пісна затерська капуста з пшоном</h5>
+                              <p class="card-text">Є такі українські страви, без яких важко уявити святкове застілля. Різдвяний стіл завжди прикрашає багата кутя, ароматний пісний борщ з овочами чи з рибою.</p>
+                              <p class="text-white fst-italic card-text">200 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/piz-1.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Піца Маргарита</h5>
+                              <p class="card-text">Знаєте, як знайти ідеальну піцу в Італії? Дивіться, де у черзі стоять лише італійці, а не туристи. Користуйтеся цим простим лайфхаком, коли будете подорожувати. А якщо смачну соковиту піцу хочете тут і зараз, ваші пошуки ідеального рецепта завершилися. </p>
+                              <p class="text-white fst-italic card-text">140 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/piz-2.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Піца Песто</h5>
+                              <p class="card-text">Цікаво, як поєднаються квашені томати та соус песто? Не намагайтеся уявити смак, а одразу приготуйте оригінальну піцу.</p>
+                              <p class="text-white fst-italic card-text">170 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/piz-3.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Сицилійська піца</h5>
+                              <p class="card-text">У вашому дитинстві домашня піца теж була товстою та величезною на все деко? Мабуть, це для того, аби усі смачно поїли та всім вистачило.</p>
+                              <p class="text-white fst-italic card-text">270 грн</p>
+
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-5">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/piz-4.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Піца з тунцем</h5>
+                              <p class="card-text">Домашня піца – особлива. В неї додається не тільки традиційна начинка, а ще і підмішується любов та турбота про сім’ю. </p>
+                              <p class="text-white fst-italic card-text">210 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/piz-5.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Піца Діабло</h5>
+                              <p class="card-text">моцарела, пікантна салямі, червона квасоля, перець чілі, маринована цибуля, соус ширачі, томатний соус</p>
+                              <p class="text-white fst-italic card-text">160 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/piz-6.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Піца Українська</h5>
+                              <p class="card-text">Основа, моцарелла, баварські ковбаски, шинка, гриби, цибуля, болг. перець, соус червоний, огірок кислий, зелень</p>
+                              <p class="text-white fst-italic card-text">220 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/n-1.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Кока кола 0.5</h5>
+                              <p class="card-text">Солодка вода з цукром</p>
+                              <p class="text-white fst-italic card-text">50 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/n-2.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Спрайт 0.5</h5>
+                              <p class="card-text">Солодка прозора вода</p>
+                              <p class="text-white fst-italic card-text">50 грн</p>
+                              
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/n-3.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Вода Моршинкська</h5>
+                              <p class="card-text">Звичайна питна вода</p>
+                              <p class="text-white fst-italic card-text">30 грн</p>
+
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-5">
+                        <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/n-4.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Чай</h5>
+                              <p class="card-text">Непоганий напій для ранкової зустрічі або вечірнього перегляду фільму</p>
+                              <p class="text-white fst-italic card-text">40 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/n-5.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Кава</h5>
+                              <p class="card-text">Непоганий напій з кофеїном , бадьорить зранку</p>
+                              <p class="text-white fst-italic card-text">60 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                          <div class="card col-lg col-md-6 mx-4 bg-secondary bg-opacity-50 px-0 text-white mb-3" style="width: 18rem;">
+                            <img src="img/menus/n-6.png" class="w-100" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Лимонад</h5>
+                              <p class="card-text">Смачний, солодкий, холодний літній напій</p>
+                              <p class="text-white fst-italic card-text">80 грн</p>
+                              <button class="btn btn-success">В корзину</button>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+          </div>
+        <div class="container-fluid bg-black mt-5">
+            <div class="row">
+              <div class="col-6 text-center mt-5">
+                <h4>Звяжіться з нами</h4>
+                <p>вул.Липова м.Тернопіль<br>
+                +38 (050) 000 000<br>
+                  ПН-СБ: 09:00 - 20:00<br>
+                  НД: 10:00 - 21:00<br>
+                  email@gmail.com
+              </p>
+              </div>
+              <div class="col-6 text-center mt-5">
+                <h4>Стежте за нами</h4>
+                <p>Підписуся на наші соц мережі</p>
+                <p class="text-dark fs-1">
+                  <a href="www.instagram.com" class="text-light"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="www.facebook.com" class="text-light"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a href="www.twitter.com" class="text-light"><i class="fa-brands fa-square-twitter"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade dark-modal" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="progress w-100" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 30%">1/3</div>
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Виберіть столик</option>
+                    <option value="1">Біля вікна(№1)</option>
+                    <option value="2">Біля вікна(№2)</option>
+                    <option value="3">Біля кухні(№3)</option>
+                    <option value="1">При вході(№4)</option>
+                    <option value="2">Біля рояля(№5)</option>
+                    <option value="3">Біля Вбиральні(№6)</option>
+                  </select>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Наступний крок</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade dark-modal" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggle2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="progress w-100" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 60%">2/3</div>
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Введіть дату</label>
+                    <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                </div>
+                <div class="form-check ms-4">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Зал з курінням
+                  </label>
+                </div>
+                <div class="form-check ms-4">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                   Зал без куріння
+                  </label>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Наступний крок</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade dark-modal" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggle2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="progress w-100" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 100%">3/3</div>
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Ваше ім'я</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Номер телефона</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+              </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Наступний крок</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade dark-modal" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggle2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="progress w-100" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 100%">3/3</div>
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Ви успішно зарезервували столик!
+              </div>
+              </div>
+            </div>
+          </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/97cfac7918.js" crossorigin="anonymous"></script>
+    </body>
+</html>
